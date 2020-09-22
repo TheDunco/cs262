@@ -4,3 +4,6 @@ This homework exercise is based on NetNinja's
 
 This truncated version implements the upgrades specified in lab 1 but leaves out
 much of the functionality and style implemented in the tutorial.
+
+Completed by Duncan Van Keulen
+9/21/2020
