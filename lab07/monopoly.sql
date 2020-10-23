@@ -52,19 +52,20 @@ GRANT SELECT ON Property TO PUBLIC;
 INSERT INTO Game VALUES (1, '2006-06-27 08:00:00');
 INSERT INTO Game VALUES (2, '2006-06-28 13:20:00');
 INSERT INTO Game VALUES (3, '2006-06-29 18:41:00');
+INSERT INTO GAME VALUES (4, '2020-10-20 12:00:00');
 
 INSERT INTO Player(ID, emailAddress) VALUES (1, 'me@calvin.edu');
-INSERT INTO Player VALUES (2, 'king@gmail.edu', 'The King');
-INSERT INTO Player VALUES (3, 'dog@gmail.edu', 'Dogbreath');
+INSERT INTO Player VALUES (2, 'king@gmail.com', 'The King');
+INSERT INTO Player VALUES (3, 'dog@gmail.com', 'Dogbreath');
 
-INSERT INTO PlayerGame VALUES (1, 1, 1, 200, NULL);
-INSERT INTO PlayerGame VALUES (1, 2, 2, 400, NULL);
-INSERT INTO PlayerGame VALUES (1, 3, 3, 600, NULL);
-INSERT INTO PlayerGame VALUES (2, 1, 4, 800, NULL);
-INSERT INTO PlayerGame VALUES (2, 2, 5, 1000, NULL);
-INSERT INTO PlayerGame VALUES (2, 3, 6, 1200, NULL);
-INSERT INTO PlayerGame VALUES (3, 2, 8, 1400, NULL);
-INSERT INTO PlayerGame VALUES (3, 3, 9, 1600, NULL);
+INSERT INTO PlayerGame VALUES (1, 1, 1, 200, 16);
+INSERT INTO PlayerGame VALUES (1, 2, 2, 400, 32);
+INSERT INTO PlayerGame VALUES (1, 3, 3, 600, 128);
+INSERT INTO PlayerGame VALUES (2, 1, 4, 800, 256);
+INSERT INTO PlayerGame VALUES (2, 2, 5, 1000, 1000);
+INSERT INTO PlayerGame VALUES (2, 3, 6, 3500, 2000);
+INSERT INTO PlayerGame VALUES (3, 2, 8, 2800, 3000);
+INSERT INTO PlayerGame VALUES (3, 3, 9, 2000, 10000);
 
 INSERT INTO Property VALUES (1, 1, 'Boardwalk', 0, 0);
 INSERT INTO Property VALUES (1, 1, 'Pennsylvania Avenue', 0, 1);
