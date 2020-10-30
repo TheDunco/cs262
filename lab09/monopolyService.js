@@ -12,7 +12,7 @@
 
 const pgp = require('pg-promise')();
 const db = pgp({
-    host: "salt.db.elephantsql.com",
+    host: "raja.db.elephantsql.com",
     port: 5432,
     database: process.env.USER,
     user: process.env.USER,
@@ -56,7 +56,7 @@ function returnDataOr404(res, data) {
 }
 
 function readHelloMessage(req, res) {
-    res.send('Hello, CS 262 Monopoly service!');
+    res.send('CS262 Lab09 Duncan Van Keulen');
 }
 
 function readPlayers(req, res, next) {

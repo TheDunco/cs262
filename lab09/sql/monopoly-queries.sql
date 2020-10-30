@@ -1,10 +1,3 @@
---
--- This SQL script implements sample queries on the Monopoly database.
---
--- @author kvlinden
--- @version Summer, 2015
---
-
 -- Get the number of Game records.
 SELECT *
   FROM Game
@@ -30,5 +23,6 @@ ORDER BY score DESC
 
 -- Get the cross-product of all the tables.
 SELECT *
-  FROM Player, PlayerGame, Game
+  FROM Player, PlayerGame, Game, Property
   ;
+
