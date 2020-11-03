@@ -52,12 +52,11 @@ GRANT SELECT ON Property TO PUBLIC;
 INSERT INTO Game VALUES (1, '2006-06-27 08:00:00');
 INSERT INTO Game VALUES (2, '2006-06-28 13:20:00');
 INSERT INTO Game VALUES (3, '2006-06-29 18:41:00');
-INSERT INTO GAME VALUES (4, '2020-11-3 12:00:00');
+INSERT INTO GAME VALUES (4, '2020-10-20 12:00:00');
 
 INSERT INTO Player(ID, emailAddress) VALUES (1, 'me@calvin.edu');
 INSERT INTO Player VALUES (2, 'king@gmail.com', 'The King');
 INSERT INTO Player VALUES (3, 'dog@gmail.com', 'Dogbreath');
-INSERT INTO Player VALUES (4, 'foo@gmail.com', 'Bar');
 
 INSERT INTO PlayerGame VALUES (1, 1, 1, 200, 16);
 INSERT INTO PlayerGame VALUES (1, 2, 2, 400, 32);

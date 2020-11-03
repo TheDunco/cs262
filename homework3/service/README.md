@@ -3,7 +3,7 @@
 This is the data service application for the [CS 262 sample Monopoly project](https://github.com/calvin-cs262-organization/monopoly-project)
 and it is deployed here:
 
-<https://monopoly-lab-9.herokuapp.com/>
+<https://cs262-monopoly-service.herokuapp.com/>
 
 It is based on the standard Heroku with Node.js tutorial.
 
@@ -19,3 +19,31 @@ For the team project, configure your Heroku app to auto-deploy the code from the
 master/main branch of your
 service repo; do this by following the instructions under the &ldquo;Deploy&rdquo;
 tab in your application in the Heroku dashboard.
+
+For Homework 3:
+a.
+/property
+/
+/players
+/players/:id
+/players/:id
+/players
+/players/:id
+
+b.
+/property - nullipotent
+/ - nullipotent
+/players - nullipotent
+/players/:id - nullipotent
+/players/:id - idempotent (update player)
+/players - idempotent (create player)
+/players/:id - idempotent (delete player)
+
+c. Yes. The client and server are seperate,
+it's stateless meaning each request contains all the information needed,
+it has a uniform interface,
+it is a layered interface,
+and since it's a web interface it is cacheable.
+
+d. Because of the way it's implemented, it could be possible but if the
+proper care is taken, it shouldn't happen in normal requests.
