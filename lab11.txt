@@ -1,0 +1,12 @@
+In homeStack.js, the formatter suggested I move a multi-line tag to one line.
+
+In mapScreen.js, eslint had me change all quotes to single quotes, 
+    delete dangling commas, add spaces after //'s and {**}s and between function names and ()'s,
+    deleted unused imports
+    
+In interiorScreen it made me do all of the above including switching vars to lets and consts
+
+For the loginScreen it had me do everything listed above, but is yelling at me because of the <link> tag even 
+    though it works just fine.
+This is the only suggestion I didn't take; I like the cleaner and easier to type look that this format offers.
+
